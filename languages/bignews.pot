@@ -1,0 +1,2376 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bignews\n"
+"POT-Creation-Date: 2016-06-08 20:12+0700\n"
+"PO-Revision-Date: 2016-06-03 19:47+0700\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html_e;esc_html__;_n:1,2;_n_noop:1,2;_nx:1,2;"
+"_nx_noop:1,2\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/options-init.php:72
+msgid "Section via hook"
+msgstr ""
+
+#: admin/options-init.php:147
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/options-init.php:164
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: admin/options-init.php:165
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: admin/options-init.php:166
+msgid "Tags"
+msgstr ""
+
+#: admin/options-init.php:188
+msgid "General"
+msgstr ""
+
+#: admin/options-init.php:194
+msgid "Layout Display"
+msgstr ""
+
+#: admin/options-init.php:195
+msgid "Choose type of layout"
+msgstr ""
+
+#: admin/options-init.php:196
+msgid "This option will change layout for all page of theme."
+msgstr ""
+
+#: admin/options-init.php:213
+msgid "Body Boxed Width"
+msgstr ""
+
+#: admin/options-init.php:224
+msgid "Body Background"
+msgstr ""
+
+#: admin/options-init.php:225
+msgid "Choose the background of body"
+msgstr ""
+
+#: admin/options-init.php:239
+msgid "Header Logo"
+msgstr ""
+
+#: admin/options-init.php:241
+msgid "Upload your header logo .png or .jpg"
+msgstr ""
+
+#: admin/options-init.php:248
+msgid "Footer Logo"
+msgstr ""
+
+#: admin/options-init.php:250
+msgid "Upload your footer logo .png or .jpg"
+msgstr ""
+
+#: admin/options-init.php:256
+msgid "Logo Alt Attribute"
+msgstr ""
+
+#: admin/options-init.php:257
+msgid "It's useful for SEO and generally is the name of the site."
+msgstr ""
+
+#: admin/options-init.php:263
+msgid "Logo Title Attribute"
+msgstr ""
+
+#: admin/options-init.php:264
+msgid "This attribute specifies extra information about the logo."
+msgstr ""
+
+#: admin/options-init.php:271
+msgid "Favicon Icon"
+msgstr ""
+
+#: admin/options-init.php:273
+msgid "Optional - upload a favicon image (16 x 16px) .ico"
+msgstr ""
+
+#: admin/options-init.php:279
+msgid "Header Sticky Enable"
+msgstr ""
+
+#: admin/options-init.php:280
+msgid "Enable or disable fixed header when scroll"
+msgstr ""
+
+#: admin/options-init.php:287
+msgid "To Top Button"
+msgstr ""
+
+#: admin/options-init.php:288
+msgid "Setting for back to top button"
+msgstr ""
+
+#: admin/options-init.php:298
+msgid "Social"
+msgstr ""
+
+#: admin/options-init.php:305
+msgid "Facebook"
+msgstr ""
+
+#: admin/options-init.php:311
+msgid "Twitter"
+msgstr ""
+
+#: admin/options-init.php:317
+msgid "Googleplus"
+msgstr ""
+
+#: admin/options-init.php:323
+msgid "Pinterest"
+msgstr ""
+
+#: admin/options-init.php:329
+msgid "Instagram"
+msgstr ""
+
+#: admin/options-init.php:335
+msgid "Dribbble"
+msgstr ""
+
+#: admin/options-init.php:345
+msgid "Header"
+msgstr ""
+
+#: admin/options-init.php:346
+msgid "This Section will change setting for header"
+msgstr ""
+
+#: admin/options-init.php:354
+msgid "Describe content of all elements in header"
+msgstr ""
+
+#: admin/options-init.php:360 admin/options-init.php:610
+msgid "Header Top"
+msgstr ""
+
+#: admin/options-init.php:361 admin/options-init.php:400
+msgid "Configure detailed information for each content in header"
+msgstr ""
+
+#: admin/options-init.php:367
+msgid "Header Left Content"
+msgstr ""
+
+#: admin/options-init.php:383
+msgid "Header Right Content"
+msgstr ""
+
+#: admin/options-init.php:399
+msgid "Header Main"
+msgstr ""
+
+#: admin/options-init.php:406
+msgid "Logo Position"
+msgstr ""
+
+#: admin/options-init.php:416
+msgid "Header Main Content"
+msgstr ""
+
+#: admin/options-init.php:431
+msgid "Content In Header"
+msgstr ""
+
+#: admin/options-init.php:432
+msgid "Configure content for social list, phone, email in header"
+msgstr ""
+
+#: admin/options-init.php:455
+msgid "Phone 1"
+msgstr ""
+
+#: admin/options-init.php:462
+msgid "Phone 2"
+msgstr ""
+
+#: admin/options-init.php:468
+msgid "Email 1"
+msgstr ""
+
+#: admin/options-init.php:475
+msgid "Email 2"
+msgstr ""
+
+#: admin/options-init.php:481
+msgid "Breaking News Option"
+msgstr ""
+
+#: admin/options-init.php:482
+msgid "Edit info appear in breaking news"
+msgstr ""
+
+#: admin/options-init.php:488
+msgid "Number Breaking Posts To Show"
+msgstr ""
+
+#: admin/options-init.php:494
+msgid "Breaking News Query"
+msgstr ""
+
+#: admin/options-init.php:507
+msgid "Breaking News Query By Categories"
+msgstr ""
+
+#: admin/options-init.php:516
+msgid "Breaking News Query By Tags"
+msgstr ""
+
+#: admin/options-init.php:525
+msgid "Breaking News Query By Posts"
+msgstr ""
+
+#: admin/options-init.php:533 admin/options-init.php:1868
+msgid "Order By"
+msgstr ""
+
+#: admin/options-init.php:546
+msgid "Order"
+msgstr ""
+
+#: admin/options-init.php:561
+msgid "Options Below Navigation"
+msgstr ""
+
+#: admin/options-init.php:562
+msgid "Configure content for each location in header"
+msgstr ""
+
+#: admin/options-init.php:569
+msgid "Show Below Menu"
+msgstr ""
+
+#: admin/options-init.php:581
+msgid "Date Time Text"
+msgstr ""
+
+#: admin/options-init.php:582
+msgid "Enable or disable date time text"
+msgstr ""
+
+#: admin/options-init.php:603
+msgid "Header Styling"
+msgstr ""
+
+#: admin/options-init.php:604
+msgid "Configuration for main navigation on top"
+msgstr ""
+
+#: admin/options-init.php:611
+msgid "Configuration header top style"
+msgstr ""
+
+#: admin/options-init.php:617
+msgid "Header Top Background"
+msgstr ""
+
+#: admin/options-init.php:618
+msgid "Set background color"
+msgstr ""
+
+#: admin/options-init.php:630
+msgid "Header Top Text Color"
+msgstr ""
+
+#: admin/options-init.php:631
+msgid "Set text color"
+msgstr ""
+
+#: admin/options-init.php:648
+msgid "Main Menu Setting"
+msgstr ""
+
+#: admin/options-init.php:649
+msgid "Configuration for Main Menu"
+msgstr ""
+
+#: admin/options-init.php:655
+msgid "Main Menu Custom"
+msgstr ""
+
+#: admin/options-init.php:663
+msgid "Menu Item Background"
+msgstr ""
+
+#: admin/options-init.php:664
+msgid "Set background for Menu item"
+msgstr ""
+
+#: admin/options-init.php:676
+msgid "Menu Item Color"
+msgstr ""
+
+#: admin/options-init.php:677
+msgid "Set color for Menu item"
+msgstr ""
+
+#: admin/options-init.php:696
+msgid "Menu Item Padding"
+msgstr ""
+
+#: admin/options-init.php:697
+msgid "Choose inwards spacing for each menu item"
+msgstr ""
+
+#: admin/options-init.php:698 admin/options-init.php:804
+#: admin/options-init.php:1042 admin/options-init.php:1063
+#: admin/options-init.php:1209 admin/options-init.php:1302
+msgid "unit is \"px\""
+msgstr ""
+
+#: admin/options-init.php:704
+msgid "Show Icon In Submenu"
+msgstr ""
+
+#: admin/options-init.php:705
+msgid "Choose to show or hide icon for item in submenu"
+msgstr ""
+
+#: admin/options-init.php:713
+msgid "Default Icon Classess"
+msgstr ""
+
+#: admin/options-init.php:714
+msgid ""
+"Menu item will use this when icon option in \"Appearance -> Menus\" leave "
+"empty"
+msgstr ""
+
+#: admin/options-init.php:726
+msgid "Dropdown Menu Setting"
+msgstr ""
+
+#: admin/options-init.php:727
+msgid "Configuration for submenu"
+msgstr ""
+
+#: admin/options-init.php:733
+msgid "Dropdown Menu Custom"
+msgstr ""
+
+#: admin/options-init.php:734
+msgid "In default, dropdown menu will follow \"Submenu Style\" above"
+msgstr ""
+
+#: admin/options-init.php:742
+msgid "Submenu Background"
+msgstr ""
+
+#: admin/options-init.php:743
+msgid "Set background color for submenu dropdown"
+msgstr ""
+
+#: admin/options-init.php:756
+msgid "SubMenu Item Color"
+msgstr ""
+
+#: admin/options-init.php:757 admin/options-init.php:846
+msgid "Set color for text in submenu"
+msgstr ""
+
+#: admin/options-init.php:770
+msgid "Submenu Width"
+msgstr ""
+
+#: admin/options-init.php:780
+msgid "Submenu Separate"
+msgstr ""
+
+#: admin/options-init.php:781
+msgid "Set border bottom attribute for submenu"
+msgstr ""
+
+#: admin/options-init.php:802
+msgid "SubMenu Item Padding"
+msgstr ""
+
+#: admin/options-init.php:803
+msgid "Choose inwards spacing for each submenu item"
+msgstr ""
+
+#: admin/options-init.php:815
+msgid "Mega Menu Setting"
+msgstr ""
+
+#: admin/options-init.php:816
+msgid "Configuration for Mega Menu"
+msgstr ""
+
+#: admin/options-init.php:822
+msgid "Mega Menu Custom"
+msgstr ""
+
+#: admin/options-init.php:823
+msgid "In default, mega menu will follow \"Submenu Style\" above"
+msgstr ""
+
+#: admin/options-init.php:831
+msgid "Mega Menu Background"
+msgstr ""
+
+#: admin/options-init.php:845
+msgid "Megamenu Item Color"
+msgstr ""
+
+#: admin/options-init.php:858
+msgid "Megamenu Column Separate"
+msgstr ""
+
+#: admin/options-init.php:859
+msgid "Set border right attribute for Megamenu column"
+msgstr ""
+
+#: admin/options-init.php:876
+msgid "Megamenu Item Separate"
+msgstr ""
+
+#: admin/options-init.php:877
+msgid "Set border bottom attribute for Megamenu column"
+msgstr ""
+
+#: admin/options-init.php:901
+msgid "Sidebar"
+msgstr ""
+
+#: admin/options-init.php:902
+msgid "Configuration for sidebar"
+msgstr ""
+
+#: admin/options-init.php:908 admin/options-init.php:936
+#: admin/options-init.php:975
+msgid "Default Sidebar"
+msgstr ""
+
+#: admin/options-init.php:914
+msgid "Default Sidebar Layout"
+msgstr ""
+
+#: admin/options-init.php:915
+msgid "Set how to display default sidebar"
+msgstr ""
+
+#: admin/options-init.php:947
+msgid "Category Sidebar"
+msgstr ""
+
+#: admin/options-init.php:953
+msgid "Category Sidebar Layout"
+msgstr ""
+
+#: admin/options-init.php:954
+msgid "Set how to display category sidebar"
+msgstr ""
+
+#: admin/options-init.php:987 admin/options-init.php:1015
+msgid "Blog Sidebar"
+msgstr ""
+
+#: admin/options-init.php:993
+msgid "Blog Sidebar Layout"
+msgstr ""
+
+#: admin/options-init.php:994
+msgid "Set how to display blog sidebar"
+msgstr ""
+
+#: admin/options-init.php:1027
+msgid "Block in Sidebar"
+msgstr ""
+
+#: admin/options-init.php:1040
+msgid "Sidebar Block Margin Bottom"
+msgstr ""
+
+#: admin/options-init.php:1041
+msgid "Choose margin bottom between 2 block content on sidebar"
+msgstr ""
+
+#: admin/options-init.php:1061
+msgid "Sidebar Block Padding Bottom"
+msgstr ""
+
+#: admin/options-init.php:1062
+msgid "Choose padding bottom for one block content on sidebar"
+msgstr ""
+
+#: admin/options-init.php:1075
+msgid "Block Seperate"
+msgstr ""
+
+#: admin/options-init.php:1076
+msgid "Set border bottom attribute for block content on sidebar"
+msgstr ""
+
+#: admin/options-init.php:1100
+msgid "Footer"
+msgstr ""
+
+#: admin/options-init.php:1102
+msgid "Configuration for footer of site"
+msgstr ""
+
+#: admin/options-init.php:1107
+msgid "Footer Main"
+msgstr ""
+
+#: admin/options-init.php:1113
+msgid "Footer Section"
+msgstr ""
+
+#: admin/options-init.php:1121
+msgid "Columns"
+msgstr ""
+
+#: admin/options-init.php:1137
+msgid "Footer Content When Set Column"
+msgstr ""
+
+#: admin/options-init.php:1143
+msgid "Footer Style"
+msgstr ""
+
+#: admin/options-init.php:1176
+msgid "Footer Background Image"
+msgstr ""
+
+#: admin/options-init.php:1177
+msgid "Set background image for footer section"
+msgstr ""
+
+#: admin/options-init.php:1189
+msgid "Footer Mask Background"
+msgstr ""
+
+#: admin/options-init.php:1190
+msgid "Set background color for mask layer above footer"
+msgstr ""
+
+#: admin/options-init.php:1207
+msgid "Footer Padding"
+msgstr ""
+
+#: admin/options-init.php:1208 admin/options-init.php:1301
+msgid "Choose inwards spacing for footer section"
+msgstr ""
+
+#: admin/options-init.php:1223
+msgid "Footer Bottom"
+msgstr ""
+
+#: admin/options-init.php:1229
+msgid "Show Footer Bottom"
+msgstr ""
+
+#: admin/options-init.php:1237
+msgid "Footer Location 1 Content"
+msgstr ""
+
+#: admin/options-init.php:1238 admin/options-init.php:1249
+#: admin/options-init.php:1260
+msgid "Choose here and set content at below field"
+msgstr ""
+
+#: admin/options-init.php:1248
+msgid "Footer Location 2 Content"
+msgstr ""
+
+#: admin/options-init.php:1259
+msgid "Footer Location Center Content"
+msgstr ""
+
+#: admin/options-init.php:1270
+msgid "Text Information"
+msgstr ""
+
+#: admin/options-init.php:1276
+msgid "Footer Bottom Border Top"
+msgstr ""
+
+#: admin/options-init.php:1277
+msgid "Set border top attribute for footer bottom"
+msgstr ""
+
+#: admin/options-init.php:1300
+msgid "Footer Bottom Padding"
+msgstr ""
+
+#: admin/options-init.php:1319
+msgid "Block Setting"
+msgstr ""
+
+#: admin/options-init.php:1328
+msgid "Block 1"
+msgstr ""
+
+#: admin/options-init.php:1334 admin/options-init.php:1354
+#: admin/options-init.php:1374 admin/options-init.php:1394
+#: admin/options-init.php:1414 admin/options-init.php:1434
+#: admin/options-init.php:1448 admin/options-init.php:1468
+#: admin/options-init.php:1482 admin/options-init.php:1496
+#: admin/options-init.php:1510 admin/options-init.php:1530
+#: admin/options-init.php:1543 admin/options-init.php:1556
+#: admin/options-init.php:1576 admin/options-init.php:1596
+#: admin/options-init.php:1611 admin/options-init.php:1625
+#: admin/options-init.php:1639 admin/options-init.php:1653
+#: admin/options-init.php:1668 admin/options-init.php:1688
+#: admin/options-init.php:1702
+msgid "Title Length"
+msgstr ""
+
+#: admin/options-init.php:1340 admin/options-init.php:1360
+#: admin/options-init.php:1380 admin/options-init.php:1400
+#: admin/options-init.php:1420 admin/options-init.php:1454
+#: admin/options-init.php:1516 admin/options-init.php:1562
+#: admin/options-init.php:1582 admin/options-init.php:1674
+msgid "Excerpt Length"
+msgstr ""
+
+#: admin/options-init.php:1348
+msgid "Block 2"
+msgstr ""
+
+#: admin/options-init.php:1368
+msgid "Block 3"
+msgstr ""
+
+#: admin/options-init.php:1388
+msgid "Block 4"
+msgstr ""
+
+#: admin/options-init.php:1408
+msgid "Block 5"
+msgstr ""
+
+#: admin/options-init.php:1428
+msgid "Block 6"
+msgstr ""
+
+#: admin/options-init.php:1442
+msgid "Block 7"
+msgstr ""
+
+#: admin/options-init.php:1462
+msgid "Block 8"
+msgstr ""
+
+#: admin/options-init.php:1476
+msgid "Block 9"
+msgstr ""
+
+#: admin/options-init.php:1490
+msgid "Block 10"
+msgstr ""
+
+#: admin/options-init.php:1504
+msgid "Block 11"
+msgstr ""
+
+#: admin/options-init.php:1524
+msgid "Carousel 1"
+msgstr ""
+
+#: admin/options-init.php:1537
+msgid "Carousel 2"
+msgstr ""
+
+#: admin/options-init.php:1550
+msgid "Carousel 3"
+msgstr ""
+
+#: admin/options-init.php:1570
+msgid "Carousel 4"
+msgstr ""
+
+#: admin/options-init.php:1590
+msgid "Carousel 5"
+msgstr ""
+
+#: admin/options-init.php:1605
+msgid "Grid 1"
+msgstr ""
+
+#: admin/options-init.php:1619
+msgid "Grid 2"
+msgstr ""
+
+#: admin/options-init.php:1633
+msgid "Grid 3"
+msgstr ""
+
+#: admin/options-init.php:1647
+msgid "Grid 4"
+msgstr ""
+
+#: admin/options-init.php:1662
+msgid "Slider 1"
+msgstr ""
+
+#: admin/options-init.php:1682
+msgid "Slider 2"
+msgstr ""
+
+#: admin/options-init.php:1696
+msgid "Slider 3"
+msgstr ""
+
+#: admin/options-init.php:1711
+msgid "Post Setting"
+msgstr ""
+
+#: admin/options-init.php:1713
+msgid "Configuration layout for post detail pages."
+msgstr ""
+
+#: admin/options-init.php:1718
+msgid "Post Layout Display"
+msgstr ""
+
+#: admin/options-init.php:1719
+msgid "Style display post"
+msgstr ""
+
+#: admin/options-init.php:1780
+msgid "Author Section"
+msgstr ""
+
+#: admin/options-init.php:1788
+msgid "Related Post"
+msgstr ""
+
+#: admin/options-init.php:1796
+msgid "WordPress Comments Options"
+msgstr ""
+
+#: admin/options-init.php:1802
+msgid "Enable Default WordPress Comments"
+msgstr ""
+
+#: admin/options-init.php:1812
+msgid "WordPress Comments Label"
+msgstr ""
+
+#: admin/options-init.php:1818
+msgid "Facebook Comments Options"
+msgstr ""
+
+#: admin/options-init.php:1824
+msgid "Enable Facebook Comments"
+msgstr ""
+
+#: admin/options-init.php:1834
+msgid "Facebook Comments Label"
+msgstr ""
+
+#: admin/options-init.php:1840 admin/options-init.php:1913
+msgid "Url to comment on"
+msgstr ""
+
+#: admin/options-init.php:1846 admin/options-init.php:1907
+msgid "Width"
+msgstr ""
+
+#: admin/options-init.php:1852
+msgid "Color Scheme"
+msgstr ""
+
+#: admin/options-init.php:1862
+msgid "Number Of Comments"
+msgstr ""
+
+#: admin/options-init.php:1879
+msgid "Language"
+msgstr ""
+
+#: admin/options-init.php:1885
+msgid "Google Plus Comments Options"
+msgstr ""
+
+#: admin/options-init.php:1891
+msgid "Enable Google Plus Comments"
+msgstr ""
+
+#: admin/options-init.php:1901
+msgid "Google Plus Comments label"
+msgstr ""
+
+#: admin/options-init.php:1919
+msgid "Disqus comments Options"
+msgstr ""
+
+#: admin/options-init.php:1925
+msgid "Enable Disqus comments"
+msgstr ""
+
+#: admin/options-init.php:1935
+msgid "Disqus Comments label"
+msgstr ""
+
+#: admin/options-init.php:1941
+msgid "Disqus Shortname"
+msgstr ""
+
+#: admin/options-init.php:1947
+msgid "Disqus API Key"
+msgstr ""
+
+#: admin/options-init.php:1958
+msgid "Top Posts Style"
+msgstr ""
+
+#: admin/options-init.php:1959
+msgid "Choose how to display the top posts."
+msgstr ""
+
+#: admin/options-init.php:1979
+msgid "Article Display View"
+msgstr ""
+
+#: admin/options-init.php:1980
+msgid "Select a module type, this is how your article list will be displayed."
+msgstr ""
+
+#: admin/options-init.php:2000
+msgid "Category & Tag Setting"
+msgstr ""
+
+#: admin/options-init.php:2002
+msgid "Configuration layout for Category page and Tag page."
+msgstr ""
+
+#: admin/options-init.php:2008
+msgid "Page Setting"
+msgstr ""
+
+#: admin/options-init.php:2010
+msgid "This page will display options for special page template"
+msgstr ""
+
+#: admin/options-init.php:2015
+msgid "404 Page"
+msgstr ""
+
+#: admin/options-init.php:2021
+msgid "Main Title"
+msgstr ""
+
+#: admin/options-init.php:2027
+msgid "Main Subtitle"
+msgstr ""
+
+#: admin/options-init.php:2033
+#: framework/modules/widget/class-widget-accordion.php:38
+#: framework/modules/widget/class-widget-contact-info.php:54
+#: framework/shw-menu.php:159
+msgid "Description"
+msgstr ""
+
+#: admin/options-init.php:2039
+msgid "Back To Home Text"
+msgstr ""
+
+#: admin/options-init.php:2053
+msgid "Advertisement Settings"
+msgstr ""
+
+#: admin/options-init.php:2054
+msgid "Settings Banner"
+msgstr ""
+
+#: admin/options-init.php:2060
+msgid "Top Banner"
+msgstr ""
+
+#: admin/options-init.php:2066 admin/options-init.php:2145
+#: admin/options-init.php:2224 admin/options-init.php:2301
+#: admin/options-init.php:2378 admin/options-init.php:2455
+msgid "Display Banner"
+msgstr ""
+
+#: admin/options-init.php:2078 admin/options-init.php:2157
+#: admin/options-init.php:2236 admin/options-init.php:2313
+#: admin/options-init.php:2390 admin/options-init.php:2467
+msgid "Banner Image"
+msgstr ""
+
+#: admin/options-init.php:2080 admin/options-init.php:2159
+#: admin/options-init.php:2238 admin/options-init.php:2315
+#: admin/options-init.php:2392 admin/options-init.php:2469
+msgid "Choose logo image for your site"
+msgstr ""
+
+#: admin/options-init.php:2087 admin/options-init.php:2166
+#: admin/options-init.php:2245 admin/options-init.php:2322
+#: admin/options-init.php:2399 admin/options-init.php:2476
+msgid "Banner Link"
+msgstr ""
+
+#: admin/options-init.php:2094 admin/options-init.php:2173
+#: admin/options-init.php:2252 admin/options-init.php:2329
+#: admin/options-init.php:2406 admin/options-init.php:2483
+msgid "Alternative Text For "
+msgstr ""
+
+#: admin/options-init.php:2101 admin/options-init.php:2180
+#: admin/options-init.php:2259 admin/options-init.php:2336
+#: admin/options-init.php:2413 admin/options-init.php:2490
+msgid "Open Link In New Tab"
+msgstr ""
+
+#: admin/options-init.php:2109
+msgid "Textarea Banner Header Option Code - HTML Validated Custom"
+msgstr ""
+
+#: admin/options-init.php:2110 admin/options-init.php:2189
+#: admin/options-init.php:2268 admin/options-init.php:2345
+#: admin/options-init.php:2422 admin/options-init.php:2499
+msgid "Custom HTML Allowed"
+msgstr ""
+
+#: admin/options-init.php:2111 admin/options-init.php:2190
+msgid "This is the description field, again good for additional info."
+msgstr ""
+
+#: admin/options-init.php:2120 admin/options-init.php:2353
+msgid "Margin Option"
+msgstr ""
+
+#: admin/options-init.php:2121 admin/options-init.php:2200
+#: admin/options-init.php:2277 admin/options-init.php:2354
+#: admin/options-init.php:2431 admin/options-init.php:2508
+msgid ""
+"You can enable or disable any piece of this field. Top, Right, Bottom, Left, "
+"or Units."
+msgstr ""
+
+#: admin/options-init.php:2139
+msgid "Sidebar Banner 01"
+msgstr ""
+
+#: admin/options-init.php:2188
+msgid "Textarea Banner Sidebar Option Code - HTML Validated Custom"
+msgstr ""
+
+#: admin/options-init.php:2199 admin/options-init.php:2276
+#: admin/options-init.php:2430 admin/options-init.php:2507
+msgid "Padding/Margin Option"
+msgstr ""
+
+#: admin/options-init.php:2218
+msgid "Sidebar Banner 02"
+msgstr ""
+
+#: admin/options-init.php:2267
+msgid "Banner Option Code - HTML Validated Custom"
+msgstr ""
+
+#: admin/options-init.php:2295
+msgid "Content Banner"
+msgstr ""
+
+#: admin/options-init.php:2344
+msgid "Banner Code - HTML Validated Custom"
+msgstr ""
+
+#: admin/options-init.php:2372
+msgid "Content Banner 02"
+msgstr ""
+
+#: admin/options-init.php:2421 admin/options-init.php:2498
+msgid "Banner Sidebar Option Code - HTML Validated Custom"
+msgstr ""
+
+#: admin/options-init.php:2449
+msgid "Content Banner 03"
+msgstr ""
+
+#: admin/options-init.php:2530
+msgid "Translation"
+msgstr ""
+
+#: admin/options-init.php:2537
+msgid "Custom Style"
+msgstr ""
+
+#: admin/options-init.php:2539 admin/options-init.php:2557
+#: admin/options-init.php:2575
+msgid "Customize your site by code"
+msgstr ""
+
+#: admin/options-init.php:2544
+msgid "CSS Code"
+msgstr ""
+
+#: admin/options-init.php:2545
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: admin/options-init.php:2555
+msgid "Custom Script"
+msgstr ""
+
+#: admin/options-init.php:2562
+msgid "JS Code"
+msgstr ""
+
+#: admin/options-init.php:2563
+msgid "Paste your JS code here."
+msgstr ""
+
+#: admin/options-init.php:2573
+msgid "Typography"
+msgstr ""
+
+#: admin/options-init.php:2580
+msgid "Body Text"
+msgstr ""
+
+#: admin/options-init.php:2581
+msgid "Set font "
+msgstr ""
+
+#: admin/options-init.php:2588
+msgid "Paragraph Text"
+msgstr ""
+
+#: admin/options-init.php:2595
+msgid "Links Color Option"
+msgstr ""
+
+#: admin/options-init.php:2596
+msgid "Only color validation can be done on this field type"
+msgstr ""
+
+#: admin/options-init.php:2606
+msgid "H1 Text"
+msgstr ""
+
+#: admin/options-init.php:2613
+msgid "H2 Text"
+msgstr ""
+
+#: admin/options-init.php:2620
+msgid "H3 Text"
+msgstr ""
+
+#: admin/options-init.php:2627
+msgid "H4 Text"
+msgstr ""
+
+#: admin/options-init.php:2634
+msgid "H5 Text"
+msgstr ""
+
+#: admin/options-init.php:2641
+msgid "H6 Text"
+msgstr ""
+
+#: admin/options-init.php:2654
+msgid "Theme Information 1"
+msgstr ""
+
+#: admin/options-init.php:2660
+msgid "Theme Information 2"
+msgstr ""
+
+#: comments.php:26
+#, php-format
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-translate.php:19
+#: framework/modules/widget/class-widget-livescore.php:35
+msgid "All"
+msgstr ""
+
+#: framework/class-translate.php:20
+msgid "Articles"
+msgstr ""
+
+#: framework/class-translate.php:21
+#: framework/modules/widget/class-widget-block.php:88
+msgid "Author"
+msgstr ""
+
+#: framework/class-translate.php:22
+#: framework/modules/front/views/templates/content-header-custom.php:67
+#: framework/modules/front/views/templates/content-header-custom.php:88
+msgid "Breaking News"
+msgstr ""
+
+#: framework/class-translate.php:23 framework/shw-menu.php:289
+msgid "Cancel"
+msgstr ""
+
+#: framework/class-translate.php:24
+msgid "Comments are closed"
+msgstr ""
+
+#: framework/class-translate.php:25
+msgid "Edit"
+msgstr ""
+
+#: framework/class-translate.php:26
+#: framework/modules/widget/class-widget-contact-info.php:66
+msgid "Email"
+msgstr ""
+
+#: framework/class-translate.php:27
+msgid "Error 404"
+msgstr ""
+
+#: framework/class-translate.php:28
+msgid "Fans"
+msgstr ""
+
+#: framework/class-translate.php:29
+msgid "Follow"
+msgstr ""
+
+#: framework/class-translate.php:30
+msgid "Followers"
+msgstr ""
+
+#: framework/class-translate.php:31 inc/content-none.php:18
+msgid "Get started here"
+msgstr ""
+
+#: framework/class-translate.php:32
+msgid "Lastest News"
+msgstr ""
+
+#: framework/class-translate.php:33
+msgid "Lastest videos"
+msgstr ""
+
+#: framework/class-translate.php:34
+msgid "Like"
+msgstr ""
+
+#: framework/class-translate.php:35
+msgid "Likes"
+msgstr ""
+
+#: framework/class-translate.php:36
+msgid "load more"
+msgstr ""
+
+#: framework/class-translate.php:37
+msgid "Name"
+msgstr ""
+
+#: framework/class-translate.php:38
+msgid "Next"
+msgstr ""
+
+#: framework/class-translate.php:39
+msgid "Newer posts"
+msgstr ""
+
+#: framework/class-translate.php:40
+msgid "of"
+msgstr ""
+
+#: framework/class-translate.php:41
+msgid "Older posts"
+msgstr ""
+
+#: framework/class-translate.php:42
+msgid "Page"
+msgstr ""
+
+#: framework/class-translate.php:43
+msgid "Pages:"
+msgstr ""
+
+#: framework/class-translate.php:44
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: framework/class-translate.php:45
+msgid "Please enter a valid web Url."
+msgstr ""
+
+#: framework/class-translate.php:46
+msgid "Please enter comment."
+msgstr ""
+
+#: framework/class-translate.php:47
+msgid "Please enter your email address."
+msgstr ""
+
+#: framework/class-translate.php:48
+msgid "Please enter your name."
+msgstr ""
+
+#: framework/class-translate.php:49
+msgid "Popular videos"
+msgstr ""
+
+#: framework/class-translate.php:50
+msgid "Post navigation"
+msgstr ""
+
+#: framework/class-translate.php:51
+msgid "Posts tagged"
+msgstr ""
+
+#: framework/class-translate.php:52
+msgid "Previous"
+msgstr ""
+
+#: framework/class-translate.php:53
+#: framework/modules/widget/class-widget-contact-info.php:150
+#: framework/modules/widget/class-widget-contact-info.php:280
+msgid "Read more"
+msgstr ""
+
+#: framework/class-translate.php:54 inc/content-none.php:18
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: framework/class-translate.php:55
+msgid "RELATED POSTS"
+msgstr ""
+
+#: framework/class-translate.php:56
+msgid "Related Videos"
+msgstr ""
+
+#: framework/class-translate.php:57
+msgid "Search"
+msgstr ""
+
+#: framework/class-translate.php:58
+msgid "Search results for"
+msgstr ""
+
+#: framework/class-translate.php:59
+msgid "Share"
+msgstr ""
+
+#: framework/class-translate.php:60
+msgid "shop now"
+msgstr ""
+
+#: framework/class-translate.php:61
+msgid "Show results"
+msgstr ""
+
+#: framework/class-translate.php:62
+msgid "SUBMIT"
+msgstr ""
+
+#: framework/class-translate.php:63
+msgid "Subscribe"
+msgstr ""
+
+#: framework/class-translate.php:64
+msgid "Subscribers"
+msgstr ""
+
+#: framework/class-translate.php:65
+msgid "view"
+msgstr ""
+
+#: framework/class-translate.php:66
+msgid "Views"
+msgstr ""
+
+#: framework/class-translate.php:67
+msgid "View more"
+msgstr ""
+
+#: framework/class-translate.php:68
+msgid "Website"
+msgstr ""
+
+#: framework/class-translate.php:69
+msgid "Your comment here..."
+msgstr ""
+
+#: framework/class-translate.php:70
+msgid "Your email address will not be published."
+msgstr ""
+
+#: framework/class-translate.php:71
+msgid "your keyword"
+msgstr ""
+
+#: framework/class-translate.php:72
+msgid ""
+"Specify a Disqus shortname in Bignews menu &gt; Theme options &gt; Post "
+"Setting section in admin panel"
+msgstr ""
+
+#: framework/config.php:32
+msgid "Top menu"
+msgstr ""
+
+#: framework/config.php:33
+msgid "Main menu"
+msgstr ""
+
+#: framework/config.php:34
+msgid "Bottom menu"
+msgstr ""
+
+#: framework/external/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/external/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/external/class-tgm-plugin-activation.php:355
+#: framework/shw-tgm.php:132
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/external/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/external/class-tgm-plugin-activation.php:367
+#: framework/shw-tgm.php:129
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/external/class-tgm-plugin-activation.php:373
+#: framework/shw-tgm.php:130
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/external/class-tgm-plugin-activation.php:378
+#: framework/shw-tgm.php:134
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/external/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/external/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/external/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: framework/external/class-tgm-plugin-activation.php:912
+#: framework/external/class-tgm-plugin-activation.php:2618
+#: framework/external/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/external/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/external/class-tgm-plugin-activation.php:1019
+#: framework/external/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/external/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/external/class-tgm-plugin-activation.php:2473
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/external/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/external/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/external/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/external/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/external/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/external/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/external/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/external/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/external/class-tgm-plugin-activation.php:3594
+#: framework/external/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: framework/external/class-tgm-plugin-activation.php:3594
+#: framework/external/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: framework/external/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/modules/front/views/templates/style-header-handle.php:45
+msgid "Email address"
+msgstr ""
+
+#: framework/modules/front/views/templates/style-header-handle.php:48
+msgid "Password"
+msgstr ""
+
+#: framework/modules/front/views/templates/style-header-handle.php:80
+msgid "Search here..."
+msgstr ""
+
+#: framework/modules/theme/views/plugin.php:2
+#: framework/modules/theme/views/requirement.php:2
+msgid "Welcome to BigNews!"
+msgstr ""
+
+#: framework/modules/theme/views/plugin.php:3
+#: framework/modules/theme/views/requirement.php:3
+msgid ""
+"BigNews is now installed and ready to use!  Get ready to build something "
+"beautiful. Please register your purchase to get support and automatic theme "
+"updates. Read below for additional information. We hope you enjoy it!"
+msgstr ""
+
+#: framework/modules/theme/views/plugin.php:6
+#: framework/modules/theme/views/requirement.php:6
+msgid "Recommendations"
+msgstr ""
+
+#: framework/modules/theme/views/plugin.php:7
+#: framework/modules/theme/views/requirement.php:7
+msgid "Plugins"
+msgstr ""
+
+#: framework/modules/theme/views/plugin.php:8
+#: framework/modules/theme/views/requirement.php:8
+msgid "Install Demos"
+msgstr ""
+
+#: framework/modules/theme/views/plugin.php:9
+#: framework/modules/theme/views/requirement.php:9
+msgid "Theme Options"
+msgstr ""
+
+#: framework/modules/theme/views/plugin.php:13
+msgid ""
+"These are the plugins we include with BigNews.  Currently Swlabs Core is the "
+"only required plugin that is needed to use BigNews. You can activate, "
+"deactivate or update the plugins from this tab."
+msgstr ""
+
+#: framework/modules/theme/views/plugin.php:49
+#: framework/modules/theme/views/plugin.php:100
+msgid "Active:"
+msgstr ""
+
+#: framework/modules/theme/views/plugin.php:72
+msgid "Required"
+msgstr ""
+
+#: framework/modules/theme/views/plugin.php:79
+msgid ""
+"These are the plugins we tested with BigNews and they are compatible with "
+"together. If you want to use these plugins, you can activate, deactivate or "
+"update them in this tab."
+msgstr ""
+
+#: framework/modules/theme/views/plugin.php:113
+msgid "Update Available: Version"
+msgstr ""
+
+#: framework/modules/theme/views/plugin.php:122
+msgid "Recommend"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:16
+msgid "Requirements & Recommendations"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:21
+msgid "Uploads folder writable"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:27
+msgid ""
+"Please set the write permission (755) to your wp-content/uploads folders."
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:32
+msgid "Mbstring Extension"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:38
+msgid "Please enable the Mbstring extension for PHP on your server."
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:43
+msgid "PHP Version"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:46
+msgid "Currently: "
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:49
+#: framework/modules/theme/views/requirement.php:66
+#: framework/modules/theme/views/requirement.php:88
+#: framework/modules/theme/views/requirement.php:107
+#: framework/modules/theme/views/requirement.php:126
+#: framework/modules/theme/views/requirement.php:145
+msgid "Currently:"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:49
+msgid "Recommended: 5.3"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:54
+msgid "Memory Limit"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:71
+msgid "Recommended: 256M"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:71
+msgid "Increasing Memory Limit"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:76
+msgid "Upload Max Filesize"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:91
+#: framework/modules/theme/views/requirement.php:110
+msgid "Recommended: 32M"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:91
+msgid "Increasing Upload Max Filesize"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:96
+msgid "Post Max Size"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:110
+msgid "Increasing Post Max Size"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:115
+msgid "Time Limit:"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:129
+msgid "Recommended: 1800"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:129
+msgid "Increasing Time Limit"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:134
+msgid "PHP Max Input Vars:"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:147
+msgid "Recommended: 6000"
+msgstr ""
+
+#: framework/modules/theme/views/requirement.php:152
+msgid "Debug Mode"
+msgstr ""
+
+#: framework/modules/widget/class-widget-accordion.php:10
+msgid "Collapsible content panels."
+msgstr ""
+
+#: framework/modules/widget/class-widget-accordion.php:22
+#: framework/modules/widget/class-widget-block.php:47
+#: framework/modules/widget/class-widget-categories.php:25
+#: framework/modules/widget/class-widget-contact-info.php:40
+#: framework/modules/widget/class-widget-quick-contact.php:35
+#: framework/modules/widget/class-widget-social-group.php:46
+#: framework/modules/widget/class-widget-tags.php:34
+#: framework/modules/widget/class-widget-weather.php:23
+msgid "Title"
+msgstr ""
+
+#: framework/modules/widget/class-widget-accordion.php:34
+msgid "Subtitle"
+msgstr ""
+
+#: framework/modules/widget/class-widget-advertisement.php:10
+msgid "The advertisement banner."
+msgstr ""
+
+#: framework/modules/widget/class-widget-advertisement.php:22
+msgid "Choose advertisement"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-carousel.php:10
+msgid "Carousel with WP Posts."
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-carousel.php:29
+#: framework/modules/widget/class-widget-block.php:31
+#: framework/modules/widget/class-widget-grid.php:28
+#: framework/modules/widget/class-widget-recent-post.php:27
+msgid "Display post date"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-carousel.php:30
+#: framework/modules/widget/class-widget-block.php:32
+#: framework/modules/widget/class-widget-grid.php:29
+#: framework/modules/widget/class-widget-recent-post.php:28
+msgid "Display main category"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-carousel.php:31
+#: framework/modules/widget/class-widget-block.php:33
+#: framework/modules/widget/class-widget-grid.php:30
+#: framework/modules/widget/class-widget-recent-post.php:29
+msgid "Display post author"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-carousel.php:32
+#: framework/modules/widget/class-widget-block.php:34
+#: framework/modules/widget/class-widget-grid.php:31
+#: framework/modules/widget/class-widget-recent-post.php:30
+msgid "Display post views"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-carousel.php:33
+#: framework/modules/widget/class-widget-block.php:35
+#: framework/modules/widget/class-widget-grid.php:32
+#: framework/modules/widget/class-widget-recent-post.php:31
+msgid "Display post comments"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-carousel.php:51
+#: framework/modules/widget/class-widget-block-slider.php:36
+#: framework/modules/widget/class-widget-grid.php:48
+#: framework/modules/widget/class-widget-recent-post.php:40
+msgid "Block Title"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-carousel.php:55
+#: framework/modules/widget/class-widget-block.php:51
+msgid "Block Style"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-carousel.php:64
+#: framework/modules/widget/class-widget-block-slider.php:40
+#: framework/modules/widget/class-widget-grid.php:52
+#: framework/modules/widget/class-widget-recent-post.php:52
+msgid "Number Post"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-carousel.php:68
+#: framework/modules/widget/class-widget-block-slider.php:44
+#: framework/modules/widget/class-widget-block.php:64
+#: framework/modules/widget/class-widget-grid.php:56
+msgid "Sort By"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-carousel.php:76
+#: framework/modules/widget/class-widget-block-slider.php:52
+#: framework/modules/widget/class-widget-grid.php:64
+msgid "Choose Category"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-carousel.php:84
+#: framework/modules/widget/class-widget-block-slider.php:60
+#: framework/modules/widget/class-widget-grid.php:72
+msgid "Choose Tag"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-carousel.php:92
+#: framework/modules/widget/class-widget-block-slider.php:68
+#: framework/modules/widget/class-widget-grid.php:80
+msgid "Choose Author"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-carousel.php:100
+msgid "The below options using to Block Carousel styles (Carousel 2, 4)"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block-slider.php:10
+msgid "Slider with WP Posts."
+msgstr ""
+
+#: framework/modules/widget/class-widget-block.php:10
+msgid "Block of Posts. Block style is same shortcode blocks."
+msgstr ""
+
+#: framework/modules/widget/class-widget-block.php:30
+#: framework/modules/widget/class-widget-recent-post.php:26
+msgid "Display the excerpt"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block.php:60
+msgid "Number of posts"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block.php:72
+msgid "Category"
+msgstr ""
+
+#: framework/modules/widget/class-widget-block.php:80
+msgid "Tag"
+msgstr ""
+
+#: framework/modules/widget/class-widget-button.php:10
+msgid "A button have link to page."
+msgstr ""
+
+#: framework/modules/widget/class-widget-button.php:29
+msgid "Enter text of button"
+msgstr ""
+
+#: framework/modules/widget/class-widget-button.php:32
+msgid "Choose link to page or Other link"
+msgstr ""
+
+#: framework/modules/widget/class-widget-button.php:34
+msgid "Link to page"
+msgstr ""
+
+#: framework/modules/widget/class-widget-button.php:36
+msgid "-All Pages-"
+msgstr ""
+
+#: framework/modules/widget/class-widget-button.php:43
+msgid "Other link"
+msgstr ""
+
+#: framework/modules/widget/class-widget-categories.php:11
+msgid "A list of categories."
+msgstr ""
+
+#: framework/modules/widget/class-widget-categories.php:17
+msgid "Categories"
+msgstr ""
+
+#: framework/modules/widget/class-widget-categories.php:29
+#: framework/modules/widget/class-widget-contact-info.php:44
+#: framework/modules/widget/class-widget-recent-post.php:44
+#: framework/modules/widget/class-widget-social-group.php:50
+#: framework/modules/widget/class-widget-tags.php:38
+msgid "Choose Style"
+msgstr ""
+
+#: framework/modules/widget/class-widget-categories.php:31
+#: framework/modules/widget/class-widget-contact-info.php:46
+#: framework/modules/widget/class-widget-tags.php:40
+msgid "Style 1"
+msgstr ""
+
+#: framework/modules/widget/class-widget-categories.php:32
+#: framework/modules/widget/class-widget-contact-info.php:47
+#: framework/modules/widget/class-widget-tags.php:41
+msgid "Style 2"
+msgstr ""
+
+#: framework/modules/widget/class-widget-contact-info.php:13
+msgid "The contact information."
+msgstr ""
+
+#: framework/modules/widget/class-widget-contact-info.php:48
+msgid "Style 3"
+msgstr ""
+
+#: framework/modules/widget/class-widget-contact-info.php:49
+msgid "Style 4"
+msgstr ""
+
+#: framework/modules/widget/class-widget-contact-info.php:50
+msgid "Style 5"
+msgstr ""
+
+#: framework/modules/widget/class-widget-contact-info.php:58
+msgid "Address"
+msgstr ""
+
+#: framework/modules/widget/class-widget-contact-info.php:62
+msgid "Phone"
+msgstr ""
+
+#: framework/modules/widget/class-widget-contact-info.php:70
+msgid "Skype"
+msgstr ""
+
+#: framework/modules/widget/class-widget-contact-info.php:74
+msgid "Link"
+msgstr ""
+
+#: framework/modules/widget/class-widget-contact-info.php:199
+msgid "Call us "
+msgstr ""
+
+#: framework/modules/widget/class-widget-contact-info.php:205
+msgid "Send an Email on"
+msgstr ""
+
+#: framework/modules/widget/class-widget-contact-info.php:211
+msgid "Visit us "
+msgstr ""
+
+#: framework/modules/widget/class-widget-contact-info.php:239
+msgid "Site logo"
+msgstr ""
+
+#: framework/modules/widget/class-widget-custom-menu.php:10
+msgid "Use this widget to add one of your custom menu as a link list widget."
+msgstr ""
+
+#: framework/modules/widget/class-widget-custom-menu.php:11
+msgid "SW: Custom Menu"
+msgstr ""
+
+#: framework/modules/widget/class-widget-custom-menu.php:72
+msgid "No menus have been created yet."
+msgstr ""
+
+#: framework/modules/widget/class-widget-custom-menu.php:72
+msgid "Create some"
+msgstr ""
+
+#: framework/modules/widget/class-widget-custom-menu.php:77
+#: framework/modules/widget/class-widget-newsletter.php:158
+msgid "Title:"
+msgstr ""
+
+#: framework/modules/widget/class-widget-custom-menu.php:81
+msgid "Select Menu:"
+msgstr ""
+
+#: framework/modules/widget/class-widget-custom-menu.php:92
+msgid "Select Style:"
+msgstr ""
+
+#: framework/modules/widget/class-widget-custom-menu.php:95
+#: framework/shw-menu.php:201 framework/shw-menu.php:263
+msgid "1 Column"
+msgstr ""
+
+#: framework/modules/widget/class-widget-custom-menu.php:98
+#: framework/shw-menu.php:202 framework/shw-menu.php:264
+msgid "2 Columns"
+msgstr ""
+
+#: framework/modules/widget/class-widget-grid.php:10
+msgid "WP Posts in grid."
+msgstr ""
+
+#: framework/modules/widget/class-widget-init.php:79
+msgid "Custom Widget Area"
+msgstr ""
+
+#: framework/modules/widget/class-widget-init.php:81
+msgid "Appears on sidebar of posts and pages"
+msgstr ""
+
+#: framework/modules/widget/class-widget-init.php:90
+#, php-format
+msgid "Footer Widget Area %s"
+msgstr ""
+
+#: framework/modules/widget/class-widget-init.php:92
+#, php-format
+msgid "Appears on footer column %s."
+msgstr ""
+
+#: framework/modules/widget/class-widget-init.php:101
+msgid "Main Widget Area"
+msgstr ""
+
+#: framework/modules/widget/class-widget-init.php:103
+msgid "Appears on posts and pages."
+msgstr ""
+
+#: framework/modules/widget/class-widget-init.php:110
+msgid "Blog Widget Area"
+msgstr ""
+
+#: framework/modules/widget/class-widget-init.php:112
+msgid "Appears on sidebar of posts and pages."
+msgstr ""
+
+#: framework/modules/widget/class-widget-init.php:154
+msgid "Enter Name of the new Widget Area here"
+msgstr ""
+
+#: framework/modules/widget/class-widget-init.php:155
+msgid "Enter class display on front-end"
+msgstr ""
+
+#: framework/modules/widget/class-widget-init.php:156
+msgid "Add Widget Area"
+msgstr ""
+
+#: framework/modules/widget/class-widget-livescore.php:10
+msgid "The livescore."
+msgstr ""
+
+#: framework/modules/widget/class-widget-livescore.php:15
+msgid "Livescore Football"
+msgstr ""
+
+#: framework/modules/widget/class-widget-livescore.php:23
+msgid "Title: "
+msgstr ""
+
+#: framework/modules/widget/class-widget-livescore.php:27
+msgid "Select League"
+msgstr ""
+
+#: framework/modules/widget/class-widget-livescore.php:35
+msgid "all"
+msgstr ""
+
+#: framework/modules/widget/class-widget-newsletter.php:9
+msgid "Newsletter widget to add subscription forms on sidebars."
+msgstr ""
+
+#: framework/modules/widget/class-widget-newsletter.php:19
+msgid "Sign up for our mailing list to get latest updates"
+msgstr ""
+
+#: framework/modules/widget/class-widget-quick-contact.php:11
+msgid "Quick contact form."
+msgstr ""
+
+#: framework/modules/widget/class-widget-quick-contact.php:39
+msgid "Contact form shortcode"
+msgstr ""
+
+#: framework/modules/widget/class-widget-quick-contact.php:43
+msgid "Create at least one contact form"
+msgstr ""
+
+#: framework/modules/widget/class-widget-recent-post.php:10
+msgid "A recent posts list will be shown."
+msgstr ""
+
+#: framework/modules/widget/class-widget-social-counter.php:10
+msgid "The social counter."
+msgstr ""
+
+#: framework/modules/widget/class-widget-social-counter.php:15
+msgid "Social Counter"
+msgstr ""
+
+#: framework/modules/widget/class-widget-social-group.php:10
+msgid "A list social links for your site."
+msgstr ""
+
+#: framework/modules/widget/class-widget-survey.php:10
+msgid "The survey."
+msgstr ""
+
+#: framework/modules/widget/class-widget-survey.php:32
+msgid "Choose survey"
+msgstr ""
+
+#: framework/modules/widget/class-widget-tags.php:13
+msgid "A cloud of your most used tags."
+msgstr ""
+
+#: framework/modules/widget/class-widget-tags.php:45
+msgid "Number"
+msgstr ""
+
+#: framework/modules/widget/class-widget-tags.php:49
+msgid "Max front size"
+msgstr ""
+
+#: framework/modules/widget/class-widget-tags.php:53
+msgid "Min front size"
+msgstr ""
+
+#: framework/modules/widget/class-widget-weather.php:10
+msgid "The weather."
+msgstr ""
+
+#: framework/modules/widget/class-widget-weather.php:15
+msgid "Weather"
+msgstr ""
+
+#: framework/modules/widget/class-widget-weather.php:28
+msgid "Location"
+msgstr ""
+
+#: framework/params.php:67
+msgid "- Latest -"
+msgstr ""
+
+#: framework/params.php:68
+msgid "A to Z"
+msgstr ""
+
+#: framework/params.php:69
+msgid "Z to A"
+msgstr ""
+
+#: framework/params.php:70
+msgid "Random posts today"
+msgstr ""
+
+#: framework/params.php:71
+msgid "Random posts a week ago"
+msgstr ""
+
+#: framework/params.php:72
+msgid "Random posts a month ago"
+msgstr ""
+
+#: framework/params.php:73
+msgid "Random Posts"
+msgstr ""
+
+#: framework/params.php:74
+msgid "Most Commented"
+msgstr ""
+
+#: framework/params.php:75
+msgid "Popular"
+msgstr ""
+
+#: framework/params.php:232
+msgid "Liga"
+msgstr ""
+
+#: framework/params.php:233
+msgid "Ligue 1"
+msgstr ""
+
+#: framework/params.php:234
+msgid "Serie A"
+msgstr ""
+
+#: framework/params.php:235
+msgid "Bundesliga"
+msgstr ""
+
+#: framework/params.php:236
+msgid "Eredivisie"
+msgstr ""
+
+#: framework/params.php:237
+msgid "Pro League"
+msgstr ""
+
+#: framework/params.php:238
+msgid "Premier League"
+msgstr ""
+
+#: framework/shw-menu.php:89
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: framework/shw-menu.php:107 framework/shw-menu.php:109
+msgid "Edit Menu Item"
+msgstr ""
+
+#: framework/shw-menu.php:118
+msgid "URL"
+msgstr ""
+
+#: framework/shw-menu.php:125
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/shw-menu.php:132
+msgid "Title Attribute"
+msgstr ""
+
+#: framework/shw-menu.php:138
+msgid "Link Target"
+msgstr ""
+
+#: framework/shw-menu.php:140
+msgid "Same window or tab"
+msgstr ""
+
+#: framework/shw-menu.php:141
+msgid "New window or tab"
+msgstr ""
+
+#: framework/shw-menu.php:147
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/shw-menu.php:153
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/shw-menu.php:173
+msgid "Enter icon for this item"
+msgstr ""
+
+#: framework/shw-menu.php:174
+msgid "Ex: fa fa-crosshairs"
+msgstr ""
+
+#: framework/shw-menu.php:189
+msgid "Use as Mega Menu"
+msgstr ""
+
+#: framework/shw-menu.php:199
+msgid "Select column number for megamenu"
+msgstr ""
+
+#: framework/shw-menu.php:203
+msgid "3 Columns"
+msgstr ""
+
+#: framework/shw-menu.php:204
+msgid "4 Columns"
+msgstr ""
+
+#: framework/shw-menu.php:222
+msgid "Use widget in  menu"
+msgstr ""
+
+#: framework/shw-menu.php:231
+msgid "Enter title  for menu has widget"
+msgstr ""
+
+#: framework/shw-menu.php:241 framework/shw-menu.php:243
+msgid "Select Widget Area"
+msgstr ""
+
+#: framework/shw-menu.php:261
+msgid "Select column to display Widget Area"
+msgstr ""
+
+#: framework/shw-menu.php:275
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: framework/shw-menu.php:288
+msgid "Remove"
+msgstr ""
+
+#: framework/shw-tgm.php:122
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/shw-tgm.php:123
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/shw-tgm.php:124
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/shw-tgm.php:125
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/shw-tgm.php:126
+#, php-format
+msgid "This theme requires the following plugin installed or update: %1$s."
+msgid_plural ""
+"This theme requires the following plugins installed or updated: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/shw-tgm.php:127
+#, php-format
+msgid "This theme recommends the following plugin installed or updated: %1$s."
+msgid_plural ""
+"This theme recommends the following plugins installed or updated: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/shw-tgm.php:128
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/shw-tgm.php:131
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/shw-tgm.php:133
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/shw-tgm.php:135
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/shw-tgm.php:136
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/shw-tgm.php:137
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/shw-tgm.php:138
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: inc/content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/template-page.php:4
+msgid "Technology"
+msgstr ""
+
+#: inc/template-page.php:15
+msgid "Fashion"
+msgstr ""
+
+#: inc/template-page.php:27
+msgid "Homepage"
+msgstr ""
+
+#: woocommerce/cart/cart.php:92
+msgid "Available on backorder"
+msgstr ""

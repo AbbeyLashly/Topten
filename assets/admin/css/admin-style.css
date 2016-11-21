@@ -1,0 +1,582 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+This file include some global style admin panel
+
+- Custom Redux framework
+- Utilities element
+- Custom Metabox
+- Widget
+-------------------------------------------------------------------*/
+
+@CHARSET "UTF-8";
+/* Custom theme option - redux framework */
+/* Remove ads and notice */
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/swbignews_font/swbignews_font.eot?5o3vs0');
+    src:    url('../fonts/swbignews_font/swbignews_font.eot?5o3vs0#iefix') format('embedded-opentype'),
+        url('../fonts/swbignews_font/swbignews_font.ttf?5o3vs0') format('truetype'),
+        url('../fonts/swbignews_font/swbignews_font.woff?5o3vs0') format('woff'),
+        url('../fonts/swbignews_font/swbignews_font.svg?5o3vs0#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#redux_rAds,
+#redux_dashboard_widget,
+#redux-header .rAds,
+.redux-messageredux-notice {
+	display: none !important;
+	opacity: 0 !important;
+}
+.admin-color-fresh #redux-header,
+.wp-customizer #redux-header {
+	background: #16222E;
+	border-color: #F25632;
+}
+
+.redux-main #redux-sticky #info_bar {
+	height: 40px;
+}
+
+.redux-main #redux-sticky #info_bar .expand_options {
+	margin-top: 9px;
+}
+
+#redux_save {
+	background: #51A3ED;
+	border-color: #51A3ED;
+	color: #FFF;
+	padding: 3px 15px;
+	border-radius: 0px;
+	height: auto;
+	box-shadow: none;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+#redux_save[disabled] {
+	background: #51A3ED !important;
+	border-color: #51A3ED !important;
+}
+
+#redux_save:hover {
+	background: #62B4FE;
+	border-color: #62B4FE;
+}
+
+#redux-defaults-section, 
+#redux-defaults {
+	background: #FC6C4A;
+	border-color: #FC6C4A;
+	color: #FFF;
+	padding: 3px 15px;
+	border-radius: 0px;
+	height: auto;
+	box-shadow: none;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+#redux-defaults-section[disabled], 
+#redux-defaults[disabled] {
+	background: #FC6C4A !important;
+	border-color: #FC6C4A !important;
+	-webkit-text-shadow: none !important;
+	-moz-text-shadow: none !important;
+	text-shadow: none !important;
+}
+
+#redux-defaults-section:hover, 
+#redux-defaults:hover {
+	background: #FC8063;
+	border-color: #FC8063;	
+}
+
+.redux-sidebar .redux-group-menu li a {
+	padding: 12px 4px 14px 14px;
+}
+
+.redux-container-image_select .redux-image-select .tiles,
+.redux-container-image_select .redux-image-select img {
+	border-color: rgb(236, 236, 236);
+	margin-right: 10px;
+}
+
+.redux-container-image_select .redux-image-select .tiles,
+.redux-container-image_select .redux-image-select img:hover {
+	border-color: #d5d5d5;
+}
+
+.admin-color-fresh .redux-container-image_select .redux-image-select-selected img,
+.wp-customizer .redux-container-image_select .redux-image-select-selected img {
+	border-width: 3px;
+	border-color: #FC6C4A;
+}
+
+.redux-container-image_select .redux-image-select {
+	max-width: 100%;
+}
+
+.select2-container .select2-choice {
+	height: 28px;
+}
+.redux-container #redux-footer #redux-share {
+	line-height: 33px;
+}
+.redux-container .redux-action_bar .spinner {
+	margin-top: 8px;
+}
+/* for menu */
+.menu-item-depth-0 .shw-mega-menu-d0{
+	display:block !important;
+}
+.menu-item-depth-0 .shw-show-megamenu.shw-mega-menu-d0,.menu-item-depth-0 .megamenu-column.shw-mega-menu-d0 {
+	display:block;
+}
+.shw_menu_options .show-widget ,.shw_menu_options .tab-title ,.shw_menu_options .choose-widgetarea,.shw_menu_options .widget-column,
+.shw_menu_options .megamenu-column,.shw_menu_options .shw-show-megamenu{
+	display:none;
+}
+.shw_menu_options .menu-text-box{
+	width: 190px;
+}
+.menu-item-depth-1 .widget-column.open,.menu-item-depth-1 .choose-widgetarea.open , .menu-item-depth-1 .widget-column.open,
+.menu-item-depth-1 .choose-widgetarea.open,.menu-item-depth-0 .tab-title.open{
+	display: block;
+}
+
+/* Page option */
+#shw_mbox_page_setting .inside {
+	padding: 0;
+	margin: 0;
+}
+.tab-panel {
+	display: table;
+	width: 100%;
+	background-color: #f2f2f2;
+}
+.tab-list {
+	width: 20%;
+	float: left;
+	margin: 0;
+}
+.tab-list li {
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+.tab-list li a {
+	padding: 12px 4px 12px 14px;
+	display: block;
+	background: #F2F2F2;
+	border-width: 1px 0px;
+	border-style: solid;
+	border-top: 0;
+	border-bottom: 1px solid #E7E7E7;
+	opacity: 0.7;
+	color: #555;
+	font-weight: bold;
+	text-decoration: none;
+	-webkit-transition: none 0s ease 0s;
+	-moz-transition: none 0s ease 0s;
+	transition: none 0s ease 0s;
+}
+.tab-list li a:hover {
+	background: #E5E5E5 none repeat scroll 0% 0%;
+	color: #777;
+	opacity: 1;
+}
+.tab-list li a:focus {
+	box-shadow: none;
+}
+
+.tab-list li.active a {
+	background: #FFFFFF;
+	color: #000;
+	opacity: 1;
+}
+.tab-container {
+	width: 80%;
+	float: left;
+	background-color: #fff;
+}
+.tab-wrapper {
+	padding: 15px;
+}
+.tab-container .tab-content {
+	display: none;
+}
+.tab-container .tab-content.active {
+	display: block;
+}
+.shw-btn-remove {
+	color: #ef521d !important;
+}
+.shw-page-meta .form-table tr {
+	border-bottom: 1px solid #e7e7e7;
+	font-size: 13px;
+}
+.shw-page-meta {
+	border-left: 1px solid #d8d8d8;
+}
+.shw-page-meta .form-table th,
+.shw-page-meta .form-table td {
+	font-size: 13px;
+}
+.shw-page-meta .form-table p.description {
+	font-size: 11px;
+}
+.shw-w200 {
+	width: 200px;
+}
+.shw-w190 {
+	width: 190px;
+}
+.shw-image-select img {
+	border-color: #ffffff;
+	border-style: solid;
+	border-width: 4px;
+}
+
+.shw-image-select-selected img {
+	border-color: #fc6c4a !important;
+	border-style: solid;
+	border-width: 4px;
+}
+.shw-image-select img:hover {
+	border-color: #d5d5d5;
+	border-style: solid;
+	border-width: 4px;
+}
+/* Widget CSS */
+form.shw-add-widget{
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	margin: 10px 0 0;
+	padding: 10px;
+	text-align: center;
+	height:100px;
+}
+form.shw-add-widget .shw_style_wrap{
+	float:left;
+	width:300px;
+	height:40px;
+	margin:0 20px;
+}
+form.shw-add-widget .shw_button{
+	float:left;
+	border:none;
+	border-radius: 3px;
+	background: #62b4fe;
+	color:#fff;
+	font-weight:bold;
+	height:40px;
+	padding:0 15px;
+}
+form.shw-add-widget .shw_button:hover{
+	background-color: #7bc0fe;
+	border-color: #7bc0fe;
+}
+form.shw-add-widget .shw_button:active{
+	box-shadow: 0 3px 3px rgba(0,0,0,0.5) inset;
+}
+
+.sidebar-shw-custom{
+	position: relative;
+}
+
+.shw-sidebar-delete-button{
+	font-size: 25px;
+	font-weight:bold;
+	color: #ccc;
+	position: absolute;
+	z-index: 100;
+	left: 250px;
+	top: 12px;
+}
+
+.shw-sidebar-delete-button:hover{
+	cursor: pointer;
+	color:#fc6c4a;
+}
+
+/* Theme Info CSS */
+.shw-tab-style .about-wrap h1 {
+	margin: 20px 0;
+	padding: 0;
+	color: #32373c;
+	line-height: 1.2em;
+	font-size: 2.8em;
+	font-weight: 400;
+}
+.shw-tab-style .shw-important-notice{
+	background: #f9f9fb none repeat scroll 0 0;
+	margin: 0;
+	padding: 25px 30px;
+}
+.shw-tab-style .about-description{
+	margin: 0;
+	font-size: 16px;
+}
+.shw-tab-style .about-text{
+	margin: 20px 0;
+	font-size: 16px;
+}
+.theme-browser .theme .theme-actions{
+	opacity:1;
+}
+.shw-install-plugins .plugin-info {
+	font-size: 14px;
+	position: absolute;
+	text-align: center;
+	top: 175px;
+	width: 100%;
+	color: #333333;
+	font-weight:bold;
+}
+.shw-install-plugins .plugin-required {
+	background: rgba(213, 78, 33, 0.9) none repeat scroll 0 0;
+	color: #fff;
+	padding: 4px 8px;
+	position: absolute;
+	top: 0;
+}
+.shw-install-plugins .plugin-recommend {
+	background: #B0D029 none repeat scroll 0 0;
+	color: #fff;
+	padding: 4px 8px;
+	position: absolute;
+	top: 0;
+}
+.theme-browser .theme .theme-name{
+	padding-right:100px;
+}
+.theme-browser .theme .theme-actions .button-primary{
+	margin-right: 0;
+}
+.shw-system-status table {
+	margin-bottom: 20px;
+}
+.widefat thead tr th{
+	font-weight: bold;
+}
+.shw-tab-style .shw-demo-themes.shw-install-plugins{
+	padding: 30px;
+	background-color: #f9f9fb;
+}
+.shw-tab-style h2.nav-tab-wrapper{
+	padding: 0;
+}
+.shw-system-status table td:first-child {
+	width: 33%;
+}
+.theme-browser .theme .theme-screenshot img{
+	height: 100%;
+}
+.shw-tab-style h1.nav-tab-wrapper, .shw-tab-style h2.nav-tab-wrapper, .shw-tab-style h3.nav-tab-wrapper{
+	border: 0;
+}
+.shw-tab-style h2 .nav-tab{
+	border: 0;
+	margin: 0 5px 0 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 7px 15px;
+}
+.shw-tab-style .nav-tab-wrapper .nav-tab-active{
+	background-color: #f9f9fb;
+	color: #d54e21;
+}
+.shw-tab-style .shw-system-status{
+	background-color: #f9f9fb;
+	padding: 30px;
+}
+.shw-tab-style .widefat thead tr th{
+	background-color: #f0f0f0;
+}
+.shw-tab-style .widefat td, .shw-tab-style .widefat th {
+	padding: 10px 15px;
+	border-top: 1px solid #f0f0f0;	
+}
+.shw-tab-style .feature-section {
+	padding: 0;
+	border-bottom: 0	
+}
+.shw-requirement td .fa-check-square{
+	color: #27AE60;
+	font-size:18px;
+}
+.shw-requirement td .fa-info-circle{
+	color: #E74C3C;
+	font-size:18px;
+}
+.shw-requirement td:nth-child(2) span{
+	margin-left:15px;
+}
+.shw-requirement td:nth-child(2) a{
+	margin-left:15px;
+	background:#3498DB;
+	display: inline-block;
+	padding: 0px 10px 1px;
+	transition: all 0.2s ease-out 0s;
+	line-height: 26px;
+	height: 27px;
+	color: #FFF;
+}
+.shw-requirement td:nth-child(2) a:hover{
+	background: #2980B9;
+}
+/*accordion widget*/
+.widget-content .widget-accordion-item {
+	border: 1px solid rgba(12, 1, 1, 0.16);
+	margin-bottom: 20px;
+	padding: 4px;
+}
+/*Custom Styles to WordPress Visual Editor*/
+.mce-menu-sub .mce-menu-item .mce-text {
+	font-size: 14px !important;
+	text-transform: none !important;
+}
+/*widget accordion*/
+.widget-box{
+	border: 1px solid rgba(21, 19, 19, 0.22);
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+/* Add widget  CSS */
+/* Widget CSS */
+form.swbignews-add-widget{
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	margin: 10px 0 0;
+	padding: 10px;
+	text-align: center;
+	height:170px;
+}
+form.swbignews-add-widget .swbignews_style_wrap{
+	float:left;
+	width:300px;
+	height:40px;
+	margin:10px 20px;
+}
+form.swbignews-add-widget .swbignews_button{
+	float:left;
+	border:none;
+	border-radius: 3px;
+	background: #62b4fe;
+	color:#fff;
+	font-weight:bold;
+	height:40px;
+	padding:0 15px;
+	margin-top: 10px;
+}
+form.swbignews-add-widget .swbignews_button:hover{
+	background-color: #7bc0fe;
+	border-color: #7bc0fe;
+}
+form.swbignews-add-widget .swbignews_button:active{
+	box-shadow: 0 3px 3px rgba(0,0,0,0.5) inset;
+}
+
+.sidebar-swbignews-custom{
+	position: relative;
+}
+
+.swbignews-sidebar-delete-button{
+	font-size: 25px;
+	font-weight:bold;
+	color: #ccc;
+	position: absolute;
+	z-index: 100;
+	left: 280px;
+	top: 0;
+}
+
+.swbignews-sidebar-delete-button:hover{
+	cursor: pointer;
+	color:#fc6c4a;
+}
+#shw-tab-page-general #div_shw_general_option .screenshot img{
+	width: 98%;
+	height: 100px;
+}
+
+.redux-group-tab h3:first-letter{text-transform: uppercase;}
+h3.about-description{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	font-size: 24px !important;
+	color: #3d3d3d !important;
+	margin-bottom: 21px !important;
+}
+
+#toplevel_page_BigNews_options{
+	display:none;
+}
+
+/*.redux-group-menu > li:nth-child(3) .el,
+.redux-group-menu > li:nth-child(12) .el {
+	display:none;
+}
+.redux-group-menu > li:nth-child(3),
+.redux-group-menu > li:nth-child(12) {
+	text-transform:uppercase;
+	background-color: #444444;
+	font-weight:bold;
+	text-align: center;
+	color: #fff;
+	height: 45px;
+}*/
+/*.redux-group-menu > li:nth-child(3) span,
+.redux-group-menu > li:nth-child(12) span {
+	display:block;
+	padding: 14px 14px 14px 14px;
+}*/
+.category-inline .shw-image-select{
+	display: inline-block;
+}
+#toplevel_page_swbignews_welcome .dashicons-admin-generic:before, #toplevel_page_swbignews_welcome .dashicons-admin-generic:before{
+	font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e900";
+}
+
+/*=====================================
+=            custom style             =
+=====================================*/
+
+.vc_ui-list-bar-item-trigger{
+	display: block;
+	width: 100%;
+}
+.temp-img {
+	display: block;
+	float: left;
+	padding-right: 10px;
+	overflow: hidden;
+}
+.vc_ui-list-bar-item-trigger >span{
+	display:block;
+	padding: 0px 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.vc_ui-list-bar-item-trigger .link-demo{
+	display: inline-block;
+}
+.menu-item-settings{
+    overflow: hidden;
+}
+/*=====  End of custom style   ======*/

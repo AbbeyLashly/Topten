@@ -1,0 +1,377 @@
+/* Boxed Layout */
+.header-bottom {
+	margin-top: 20px;
+}
+.shw-text-info {
+	line-height: 35px;
+	color: #a3a3a3;
+}
+.nav-footer ul li a:after {
+	content: ' | ';
+	padding-left: 10px;
+}
+.nav-footer ul li:last-child a:after {
+	display: none;
+}
+.nav-footer ul li a span {
+	display: none;
+}
+header .breaking-news .latest-news {
+	padding: 0;
+}
+header .breaking-news .latest-news i.fa {
+	display: none;
+}
+header .breaking-news span.pull-left {
+	display: none;
+}
+
+/* CSS Document */
+.author-list .media-left .media-image img {
+	width: 240px;
+	height:auto;
+}
+.layout-media-horizontal .media a.media-image {
+	margin-bottom: 0;
+}
+.author-posted .media-body .media-image img {
+	width: 100%;
+	height:auto;
+}
+/*shortcode video*/
+.top-video .video-wrapper  video {
+	margin: 0 auto;
+	display: block;
+}
+.top-video .video-wrapper  img {
+	width: 100%;
+	height:auto;
+}
+
+.topbar-left {
+	float: left;
+}
+.topbar-left > * {
+	float: left;
+	margin-right: 3px;
+}
+.topbar-right {
+	float: right;
+}
+.topbar-right > * {
+	float: right;
+	margin-left: 3px;
+}
+/* Awesome Survey PLugin */
+.shortcode-survey {
+	border: 1px solid #EDEDED;
+	padding: 20px;
+}
+.survey-widget {
+	display: table;
+	width: 100%;
+	border: 1px solid #EDEDED;
+	padding: 20px;
+}
+.shortcode-survey .answer-survey fieldset,
+.survey-widget .answer-survey fieldset {
+	padding-bottom: 0;
+}
+.shortcode-survey h4, .survey-widget h4 {
+	font-family: "Roboto Slab", serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+}
+.shortcode-survey .answer-survey, .survey-widget .answer-survey {
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.shortcode-survey .answer-survey label,
+.survey-widget .answer-survey label {
+	font-weight:normal;
+}
+.shortcode-survey .answer-survey .control-label,
+.survey-widget .answer-survey .control-label {
+	margin-bottom: 10px;
+	color: #3d3d3d;
+	text-align: left;
+}
+.shortcode-survey .answer-survey .control-group,
+.survey-widget .answer-survey .control-group {
+	margin-top: 0;
+}
+.shortcode-survey .answer-survey .controls,
+.survey-widget .answer-survey .controls {
+	padding: 0px;
+	border-bottom: 0px;
+	display: table;
+	width: 100%;
+	border-bottom: 1px solid #D4D4D4;
+	padding-bottom: 20px;
+}
+.shortcode-survey .answer-survey .controls label,
+.survey-widget .answer-survey .controls label {
+	width: 50%;
+	float: left;
+	padding-left: 30px;
+}
+.shortcode-survey .answer-survey .controls input,
+.survey-widget .answer-survey .controls input {
+	margin-left: 0;
+	left: 0;
+}
+.shortcode-survey .answer-survey .form-actions input[type="submit"],
+.survey-widget .answer-survey .form-actions input[type="submit"] {
+	float: right;
+	background-color: #333333;
+	border-color: #333333;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+/* Contact widget */
+.quick-contact-widget .footer-button:hover {
+	color: #ffffff;
+}
+
+/* TWITTER WIDGET */
+.shw-widget .latest-tweets ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.shw-widget.widget_latest_tweets_widget .footer-header {
+	color: #333;
+}
+.shw-widget .latest-tweets ul > li {
+  display: table;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.shw-widget .latest-tweets ul > li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0 !important;
+  margin-bottom: 0;
+}
+.shw-widget .latest-tweets ul > li .icon {
+  color: #626262;
+  display: table-cell;
+  width: 30px;
+  font-size: 20px;
+  text-align: left;
+}
+.shw-widget .latest-tweets ul > li {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #808080;
+  line-height: 25px;
+}
+.shw-widget .latest-tweets ul > li .tweet-text {
+  margin-bottom:3px;
+  color: #333;
+}
+.shw-widget .latest-tweets ul > li > .tweet-details a {
+  font-size: 12px;
+  color: #adadad;
+}
+.shw-widget .latest-tweets ul > li:hover .tweet-text {
+  font-weight: bold;
+}
+.shw-widget .latest-tweets ul > li .tweet-text a {
+  font-weight: bold;
+}
+.shw-widget .latest-tweets ul > li .tweet-text a:hover {
+  color : #333;
+}
+/*contact widget*/
+.widget-footer-contact a {
+	color:#626262;
+}
+.widget-footer-contact ul li {
+	list-style: none;
+}
+/* Newsletter */
+.footer-subcrible .footer-subcrible-content input.btn {
+	border-color: #555555;
+}
+.input-group-lg > .form-control {
+	height: 48px;
+}
+/*block widget*/
+.footer-main .block-widget .section-name {
+	border: 0px;
+}
+.footer-main .widget_block_14 .media {
+	margin-bottom: 30px;
+}
+
+.f-left {
+	float: left;
+}
+.f-right {
+	float: right;
+}
+/* social counter*/
+.social-connected li a.rss {
+  background: #F60;
+}
+.social-connected li a.rss:hover {
+  background: #FF5419;
+}
+.social-connected li a.vimeo {
+  background: #006599;
+}
+.social-connected li a.vimeo:hover {
+  background: #326EB7;
+}
+.social-connected li a.instagram {
+  background: #417096;
+}
+.social-connected li a.instagram:hover {
+  background: #326EB7;
+}
+.social-connected li a.soundcloud {
+  background: #FF5419;
+}
+.social-connected li a.soundcloud:hover {
+  background: #EB0005;
+}
+.widget_social_counter .heading-title {
+	border-top: 2px solid #333;
+	padding-top: 10px;
+	font-family: "Roboto Slab",serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	display: inline-block;
+	width: 100%;
+	line-height: 25px;
+	color: #333;
+	background: none;
+}
+/* Share Link CSS*/
+.content-news .info-news .share-link a:hover {
+	color: #ADADAD;
+}
+.content-news .info-news .share-link ul a {
+	text-transform:  none;
+}
+.content-news .info-news .share-link ul a i {
+	margin-right: 5px;
+}
+/*recent post widget*/
+footer .dark .title {
+	color:#ffffff;
+}
+footer .dark .media .title {
+	color: #626262;
+	font-size: 14px;
+	line-height: 24px;
+}
+footer .dark .media .title:hover {
+	color: #fff;
+}
+.dark .tabmenu-carousel .owl-prev,.dark .tabmenu-carousel .owl-next {
+	border: 1px solid rgba(255, 255, 255, 0.7);
+}
+/*carousel widget*/
+#page-sidebar .widget-block-carousel-content .owl-prev,
+#page-sidebar .widget-block-carousel-content .owl-next {
+	color: black;
+	border: 1px solid rgba(0, 0, 0, 0.33);
+}
+.widget-block-carousel-content {
+	padding-bottom: 10px;
+}
+/*widget social counter*/
+.mega-menu .social-connected .detail {
+	color: #626262;
+}
+.light .social-connected li .detail {
+    background: rgba(208, 203, 203, 0.24);
+}
+/* Content single video*/
+.content-news .video-top-content .video-description .title:hover {
+	color: #333;
+}
+.content-news .video-top-wrapper .video-top-content .video-description {
+	vertical-align: top;
+}
+.content-news .video-top-wrapper .video-top-content .video-wrapper video {
+	width: 100%;
+	height: auto;
+}
+.content-news .video-top-wrapper .video-wrapper {
+	padding-top: 0;
+	display: block;
+}
+.content-news .video-top-wrapper .video-top-content .media-left {
+	width : 50%;
+	padding-right: 30px;
+}
+.content-news .video-top-wrapper .video-top-content .media {
+	margin-bottom: 0;
+}
+.content-news .video-top-wrapper .video-top-content .video-wrapper iframe {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+/*widget weather*/
+.dark .weather-news .location-link a {
+	color: #a3a3a3;
+}
+/*widget carousel*/
+.light .widget_block_carousel .owl-prev,.light .widget_block_carousel .owl-next {
+	color: black; 
+	border: 1px solid rgba(0, 0, 0, 0.33);
+}
+/*widget button*/
+.mega-menu .footer-button.border-1x {
+	color: white;
+	border-color: white;
+}
+.shw-shortcode {
+	position:relative;
+}
+.shw-shortcode .mask,
+.latest-articles-list-grid .mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.2);
+	z-index: 5;
+	display: none;
+}
+.footer-area .widget-footer .section-name {
+	border: 0;
+}
+/* waiting */
+.waiting{width: 128px; height: 128px; background: url('../images/loading.gif');    margin: auto;}
+
+h1.page_title{
+	padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    border-bottom: 1px solid #e5e5e5;
+    font-weight: normal;
+    color: #333333;
+    line-height: 1.3;
+}
+.grid2 .list-view-2 .pagination-box li{
+	border-bottom: none; 
+	padding-bottom: 0px; 
+	margin-bottom: 0px; 
+}
+.grid2 .list-view-2 .category-item {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
